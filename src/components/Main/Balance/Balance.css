@@ -1,0 +1,14 @@
+.Balance {
+	background: lightgreen;
+	width: 100%;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	padding: 1em;
+}
+.Balance-title {
+	font-family: sans-serif;
+}
+.Balance-amount {
+	font-size: 2em;
+}

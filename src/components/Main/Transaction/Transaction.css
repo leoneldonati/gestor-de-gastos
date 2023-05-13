@@ -1,0 +1,55 @@
+.Transaction {
+	background: red;
+	width: 100%;
+}
+.Transaction-form {
+	padding: 1em;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	gap: 1em;
+}
+.Transaction-input {
+
+	padding: .5em;
+	font-size: 1em;
+	border: 2px solid #000;
+	border-radius: 1em;
+	background: #dcdcdc;
+}
+.Form-btn {
+	display: block;
+	background: none;
+	border: none;
+}
+.Form-svg {
+	fill: #f0f;
+	width: 2.5em;
+	height: auto;
+}
+
+
+
+/* TRANSACTION LIST */
+
+.List {
+	width: 100%;
+	display: flex;
+	flex-flow: column;
+	gap: 1em;
+	max-height: 25em;
+	overflow: scroll;
+}
+.List-container {
+	max-width: 25em;
+	width: 100%;
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+	padding: .5em;
+}
+.Description {}
+.List-description {}
+.List-amount {}
+.List-btn {}
+.List {}

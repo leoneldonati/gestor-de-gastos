@@ -1,0 +1,10 @@
+.Info {
+	width: 100%;
+	background: lightyellow;
+	display: flex;
+	flex-flow: column;
+	text-align: left;
+}
+.Info-text {
+	font-size: 1.1em;
+}
