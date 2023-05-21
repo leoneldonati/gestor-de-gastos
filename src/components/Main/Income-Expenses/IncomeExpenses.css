@@ -1,10 +1,24 @@
 .Info {
 	width: 100%;
-	background: lightyellow;
 	display: flex;
 	flex-flow: column;
-	text-align: left;
+	gap: 1em;
+	justify-content: center;
+	padding: 1em;
+}
+.Info-container {
+	width: 100%;
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+}
+.incomes-div, .expenses-div {
+	border: 1px solid var(--clr3);
+	border-radius: 1em;
+	box-shadow: inset 0 0 2em var(--clr2);
+	background-color: var(--clr3);
+	padding: .8em;
 }
 .Info-text {
-	font-size: 1.1em;
+	font-size: 1.3em;
 }

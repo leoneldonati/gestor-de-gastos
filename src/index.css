@@ -2,4 +2,14 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: 'Cabin', sans-serif;
+}
+:root {
+	--clr1: #818181;
+	--clr2: #cacacf;
+	--clr3: #e8ebec;
+}
+body {
+	background: rgb(129,129,129);
+	background: linear-gradient(180deg, rgba(129,129,129,1) 0%, rgba(202,202,207,1) 43%, rgba(232,235,236,1) 100%);
 }

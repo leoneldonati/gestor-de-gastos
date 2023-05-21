@@ -1,1 +1,12 @@
-Header.css
+.Header {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+.Header-img--container {
+    width: 2.5em;
+}
+.Header-img--container img {
+    display: inline-block;
+    width: 100%;
+}

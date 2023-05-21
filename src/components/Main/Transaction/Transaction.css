@@ -1,6 +1,9 @@
 .Transaction {
-	background: red;
-	width: 100%;
+	width: 80%;
+	margin: auto;
+	border: 2px solid var(--clr1);
+	border-radius: 2em;
+	background-color: var(--clr1);
 }
 .Transaction-form {
 	padding: 1em;
@@ -10,7 +13,7 @@
 	gap: 1em;
 }
 .Transaction-input {
-
+	width: 100%;
 	padding: .5em;
 	font-size: 1em;
 	border: 2px solid #000;
@@ -23,7 +26,8 @@
 	border: none;
 }
 .Form-svg {
-	fill: #f0f;
+	fill: #fff;
+	filter: drop-shadow(0 0 .5em var(--clr2));
 	width: 2.5em;
 	height: auto;
 }
@@ -37,19 +41,32 @@
 	display: flex;
 	flex-flow: column;
 	gap: 1em;
-	max-height: 25em;
+	max-height: 17em;
 	overflow: scroll;
 }
 .List-container {
 	max-width: 25em;
-	width: 100%;
+	width: 90%;
+	margin: auto;
 	display: flex;
 	flex-flow: row;
 	justify-content: space-between;
-	padding: .5em;
+	padding: .7em;
+	border: 2px solid var(--clr2);
+	border-radius: 1em;
 }
-.Description {}
-.List-description {}
-.List-amount {}
-.List-btn {}
-.List {}
+
+.Description {
+	font-size: 1.3em;
+}
+.List-btn {
+	display: block;
+	padding: .2em;
+	background: none;
+	border: none;
+}
+.List-svg {
+	fill: #000;
+	width: 2em;
+	height: auto;
+}
